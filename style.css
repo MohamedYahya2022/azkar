@@ -34,7 +34,7 @@ header .massege {
 
 header .taps {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 70px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
