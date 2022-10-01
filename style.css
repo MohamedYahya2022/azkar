@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .massege {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #90caf9;
+    color: #ffff;
+    font-size: 18px;
+    line-height: 25px;
+    position: fixed ;
+}
+
+@media (max-width: 425px) {
+    header .massege {
+        font-size: 13px;
+    }
+}
+
+header .taps {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header .tap {
+    width: calc(100% / 3);
+    padding: 20px 0;
+    text-align: center;
+    background-color: #e1f5fe;
+    cursor: pointer;
+}
+
+header .tap.active {
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+section {
+    padding: 50px 15px;
+}
+
+@media (max-width: 425px) {
+    section {
+        padding: 50px 10px;
+    }
+}
+
+section h3 {
+    width: fit-content;
+    padding: 12px 65px;
+    margin: 25px auto;
+    background-color: #90caf9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+section .zekr {
+    padding: 25px 10px;
+    margin: 20px 13px;
+    text-align: center;
+    box-shadow: 0px 0px 23px -20px black;
+    border: 1px  dashed #bbdefb;
+}
+
+section .zekr .headeing {
+    margin: 12px 0;
+    padding: 10px;
+    display: block;
+    background-color: #90caf9;
+    border-radius: 4px;
+    color: #434343;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+section .zekr > span.info{
+    width: 100%;
+    display: block;
+    margin: 14px auto;
+    padding: 5px 20px;
+    font-size: 15px;
+    background-color: #e1f5fe;
+}
+
+section .zekr > p:first-of-type {
+    color: #797979;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+section .zekr > p:last-of-type {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: #42a5f5;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#tap-3 .content {
+    display: flex;   
+    flex-direction: column;
+}
+
+#tap-3 .content select {
+    width: 60%;
+    height: 35px;
+    margin: 0 auto;
+}
+
+#tap-3 .content option {
+
+}
+
+#tap-3 .content .count {
+    width: 50%;
+    padding: 10px 0;
+    margin: 12px auto;
+    background-color: #64b5f6;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#tap-3 .content button {
+    width: 215px;
+    height: 215px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #64b5f6;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#tap-3 .content .resate {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #64b5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
